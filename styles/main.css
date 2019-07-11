@@ -1,0 +1,254 @@
+body {
+  background-color: black;
+}
+
+section {
+  padding: 170px 0;
+}
+@media only screen and (max-width: 991px) {
+  section {
+    height: auto;
+  }
+}
+
+p {
+  font-family: "RobotoSlab-Regular", sans-serif;
+  line-height: 1.2;
+}
+
+.logo {
+  height: 75px;
+}
+
+.nav-link {
+  font-family: "RobotoSlab-Regular", sans-serif;
+  font-size: 18px;
+}
+
+.shrink {
+  background-color: black;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  background-image: url("../img/banner-bg.png");
+  text-align: center;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top right;
+  background-size: contain;
+}
+@media only screen and (max-width: 991px) {
+  .banner {
+    background-image: url("../img/mobile-banner-bg.png");
+    background-position: right 50px;
+  }
+}
+.banner h1 {
+  font-family: "Robotoblack", sans-serif;
+  font-size: 120px;
+  text-align: left;
+}
+.banner h1:after {
+  content: "";
+  height: 7px;
+  width: 100px;
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 27px;
+}
+@media only screen and (max-width: 1200px) {
+  .banner h1 {
+    font-size: 100px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .banner h1 {
+    font-size: 80px;
+  }
+}
+
+.what-we-do {
+  color: white;
+}
+.what-we-do .left-block {
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/what-we-do.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+@media only screen and (max-width: 991px) {
+  .what-we-do .left-block {
+    height: 400px;
+    margin-bottom: 20px;
+  }
+}
+.what-we-do .right-block p {
+  font-family: "RobotoSlab-Regular", sans-serif;
+  line-height: 1.2;
+}
+.what-we-do .right-block h2 {
+  font-family: "Robotoblack", sans-serif;
+  font-size: 36px;
+}
+@media only screen and (max-width: 991px) {
+  .what-we-do .right-block h2 {
+    text-align: center;
+  }
+}
+
+.how-we-do {
+  background-color: white;
+  background-image: url("../img/how-we-do.png");
+  background-repeat: no-repeat;
+  background-position: 35% 15px;
+  background-size: 60%;
+}
+@media only screen and (max-width: 991px) {
+  .how-we-do {
+    background-image: none;
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .how-we-do .left-block {
+    background-image: url("../img/mobile-how-we-do.png");
+    background-position: center 30px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    padding: 80px 0 100px;
+  }
+}
+.how-we-do .left-block h1 {
+  font-family: "Robotoblack", sans-serif;
+  font-size: 70px;
+  text-align: center;
+}
+@media only screen and (max-width: 991px) {
+  .how-we-do .left-block h1 {
+    font-size: 50px;
+  }
+}
+
+.testimonials-contactUs {
+  background-color: white;
+  padding: 30px 0;
+}
+@media only screen and (max-width: 500px) {
+  .testimonials-contactUs {
+    padding-top: 0;
+  }
+}
+.testimonials-contactUs .testimonials {
+  color: white;
+  height: 440px;
+  width: 100%;
+  background-image: url("../img/testimonials-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 50px 0;
+}
+@media only screen and (max-width: 500px) {
+  .testimonials-contactUs .testimonials {
+    background-size: cover;
+  }
+}
+.testimonials-contactUs .testimonials .slick-custom-prev, .testimonials-contactUs .testimonials .slick-custom-next {
+  position: absolute;
+  bottom: -50px;
+  background: transparent;
+  border: none;
+}
+.testimonials-contactUs .testimonials .slick-custom-prev img, .testimonials-contactUs .testimonials .slick-custom-next img {
+  height: 20px;
+}
+.testimonials-contactUs .testimonials .slick-custom-next {
+  left: 140px;
+}
+@media only screen and (max-width: 1200px) {
+  .testimonials-contactUs .testimonials .slick-custom-next {
+    left: 90px;
+  }
+}
+.testimonials-contactUs .testimonials .slick-custom-prev {
+  left: 220px;
+}
+@media only screen and (max-width: 1200px) {
+  .testimonials-contactUs .testimonials .slick-custom-prev {
+    left: 170px;
+  }
+}
+.testimonials-contactUs .testimonials .slider-header {
+  margin-bottom: 15px;
+}
+.testimonials-contactUs .testimonials .slider-header img {
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+.testimonials-contactUs .testimonials .slider-header h2 {
+  font-family: "Robotobold", sans-serif;
+  font-size: 34px;
+}
+@media only screen and (max-width: 768px) {
+  .testimonials-contactUs .testimonials .slider-header h2 {
+    font-size: 24px;
+  }
+}
+.testimonials-contactUs .testimonials .slider-item-content {
+  width: 350px;
+}
+@media only screen and (max-width: 768px) {
+  .testimonials-contactUs .testimonials .slider-item-content {
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .testimonials-contactUs .testimonials .slider-item-content {
+    width: 220px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .testimonials-contactUs .testimonials .description {
+    font-size: 16px;
+  }
+}
+.testimonials-contactUs .contact-us form input {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid black;
+}
+.testimonials-contactUs .contact-us form input::placeholder {
+  color: black;
+  font-family: "Robotomedium", sans-serif;
+  font-size: 18px;
+}
+.testimonials-contactUs .contact-us form .idt_button {
+  border-radius: 3px;
+  background-color: black;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 5px 25px;
+}
+@media only screen and (max-width: 768px) {
+  .testimonials-contactUs .contact-us form .idt_button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+footer {
+  background-color: white;
+  border-top: 1px solid #cccc;
+}
+footer .nav-link {
+  color: black !important;
+}
+
+/*# sourceMappingURL=main.css.map */

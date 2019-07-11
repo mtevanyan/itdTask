@@ -1,0 +1,31 @@
+//-------------------- variables -----------------------
+$large-width: 1200px;
+$desktop-width: 991px;
+$tablet-width: 768px;
+$mobile-width: 500px;
+$top-slider-height: 672px;
+$base-color: #f60;
+
+//-------------------- mixins -----------------------
+
+//media queries
+@mixin large {
+  @media only screen and (max-width : $large-width) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media only screen and (max-width : $desktop-width) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media only screen and (max-width : $tablet-width) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media only screen and (max-width : $mobile-width) {
+    @content;
+  }
+}

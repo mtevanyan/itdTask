@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'RobotoSlab-Regular';
+  src: local('Roboto Slab Regular'),local('RobotoSlab-Regular'),
+  url('./robotoslab/robotoslabregular.woff2') format('woff2'),
+  url('./robotoslab/robotoslabregular.woff') format('woff'),
+  url('./robotoslab/robotoslabregular.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Robotoblack';
+  src: local('Robotoblack'),local('Robotoblack'),
+  url('./roboto/Robotoblack.woff2') format('woff2'),
+  url('./roboto/Robotoblack.woff') format('woff'),
+  url('./roboto/Robotoblack.ttf') format('truetype');
+
+}
+
+
+@font-face {
+  font-family: 'Robotobold';
+  src: local('Robotobold'),local('Robotobold'),
+  url('./roboto/Robotobold.woff2') format('woff2'),
+  url('./roboto/Robotobold.woff') format('woff'),
+  url('./roboto/Robotobold.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Robotomedium';
+  src: local('Robotomedium'),local('Robotomedium'),
+  url('./roboto/Robotomedium.woff2') format('woff2'),
+  url('./roboto/Robotomedium.woff') format('woff'),
+  url('./roboto/Robotomedium.ttf') format('truetype');
+
+}
